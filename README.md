@@ -65,10 +65,10 @@ print(client.get_orders())
 
 5. Place order
 
-price = we offer 0.10$ to win $1
-size = we do that 10x, so $1 to win $10
-side = BUY or SELL, imported from `py_clob_client.order_builder.constants` 
-token_id = You can find these from `events.json` if you followed these steps. These are named as `clobTokenIds`.
+- price = we offer 0.10$ to win $1
+- size = we do that 10x, so $1 to win $10
+- side = BUY or SELL, imported from `py_clob_client.order_builder.constants` 
+- token_id = You can find these from `events.json` if you followed these steps. These are named as `clobTokenIds`.
 ```python
 resp = client.create_and_post_order(
     OrderArgs(
